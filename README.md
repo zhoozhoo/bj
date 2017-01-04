@@ -1,2 +1,2 @@
-# bj
+# Bullet Journal
 Bullet Journal
