@@ -16,9 +16,6 @@
     <properties>
         <!-- dependency versions -->
         <spring-boot.vesion>1.5.1.RELEASE</spring-boot.vesion>
-
-        <!-- maven plugin versions -->
-        <surefire-plugin.version>2.19.1</surefire-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -94,7 +91,6 @@
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>${surefire-plugin.version}</version><!--$NO-MVN-MAN-VER$ -->
                 <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
