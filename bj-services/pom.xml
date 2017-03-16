@@ -15,7 +15,7 @@
 
     <properties>
         <!-- dependency versions -->
-        <spring-boot.vesion>1.5.1.RELEASE</spring-boot.vesion>
+        <spring-boot.vesion>1.5.2.RELEASE</spring-boot.vesion>
     </properties>
 
     <dependencyManagement>
