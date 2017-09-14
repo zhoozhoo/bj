@@ -3,24 +3,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ca.zhoozhoo</groupId>
+        <groupId>ca.zhoozhoo.bj</groupId>
         <artifactId>bullet-journal</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>ca.zhoozhoo.bj</groupId>
     <artifactId>bj-services</artifactId>
     <name>Bullet Journal Services</name>
     <packaging>jar</packaging>
 
     <properties>
         <!-- dependency versions -->
-        <spring-boot.vesion>1.5.2.RELEASE</spring-boot.vesion>
+        <spring-boot.vesion>1.5.7.RELEASE</spring-boot.vesion>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <!-- Import dependency management from Spring Boot -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.vesion}</version>
